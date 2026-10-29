@@ -121,6 +121,10 @@ celerybeat.pid
 
 # Environments
 .env
+.env.*
+!.env.example
+chroma_db/
+.DS_Store
 .venv
 env/
 venv/
